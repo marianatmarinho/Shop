@@ -24,7 +24,7 @@ namespace Shop.Controllers
 
         [HttpGet] //products/categories/1
         [Route("{id:int}")]
-         [AllowAnonymous]
+        [AllowAnonymous]
         public async Task<ActionResult<Produt>> GetById([FromServices]DataContext context, int id)
         {
             var product = await context
@@ -35,6 +35,7 @@ namespace Shop.Controllers
                 
             return product;
         } 
+
         [HttpGet] //products/categories/1
         [Route("categories/{id:int}")]
         [Authorize(Roles = "employee")]
