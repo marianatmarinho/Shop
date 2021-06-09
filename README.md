@@ -1,5 +1,5 @@
 ### Shop
-
+Simulação inicial de uma loja (necessário adicionar mais entidades)
 API Data Driven aplicando conceitos de CRUD e autenticação/autorização. Para o banco de dados foi utilizado SQLServer através de um Docker, onde as tabelas foram geradas 
 utilizando Entity Framework. O Azure Data foi utilizado pra visualizar os dados do banco, além da API ser documentada no Swagger.
 
